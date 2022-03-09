@@ -4,6 +4,10 @@
 - 💞️ I’m looking to collaborate on Web Services and Mobile Applications
 - 📫 How to reach me: mail me to piero.morales@utec.edu.pe
 
+# Skills Chart
+
+![skills-chart](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=piero16301)
+
 <!---
 Piero16301/Piero16301 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
