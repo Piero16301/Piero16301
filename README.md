@@ -7,17 +7,17 @@
 # Summary
 ![summary](https://github.com/Piero16301/Piero16301/blob/main/summary.png)
 
+# Work Experience
+![work-experience](https://github.com/Piero16301/Piero16301/blob/main/work-experience.png)
+
+# Education
+![education](https://github.com/Piero16301/Piero16301/blob/main/education.png)
+
 # Skills Chart
 ![skills-chart](https://github.com/Piero16301/Piero16301/blob/main/skills-chart.png)
 
 # Activity
 ![activity](https://github.com/Piero16301/Piero16301/blob/main/activity.png)
-
-# Education
-![education](https://github.com/Piero16301/Piero16301/blob/main/education.png)
-
-# Work Experience
-![work-experience](https://github.com/Piero16301/Piero16301/blob/main/work-experience.png)
 
 <!---
 Piero16301/Piero16301 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
