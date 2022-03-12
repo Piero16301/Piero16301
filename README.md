@@ -5,19 +5,19 @@
 - 📫 How to reach me: mail me to piero.morales@utec.edu.pe
 
 # Summary
-![summary](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=piero16301)
+![summary](https://github.com/Piero16301/Piero16301/blob/main/summary.png)
 
 # Skills Chart
-![skills-chart](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=piero16301&skills=C%2B%2B,Python,HTML,Dart,Java,C,JavaScript,C%23&show-other-skills=true)
+![skills-chart](https://github.com/Piero16301/Piero16301/blob/main/skills-chart.png)
 
 # Activity
-![activity](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=activity&username=piero16301)
+![activity](https://github.com/Piero16301/Piero16301/blob/main/activity.png)
 
 # Education
-![education](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=education&username=piero16301)
+![education](https://github.com/Piero16301/Piero16301/blob/main/education.png)
 
 # Work Experience
-![work-experience](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=work-experience&username=piero16301)
+![work-experience](https://github.com/Piero16301/Piero16301/blob/main/work-experience.png)
 
 <!---
 Piero16301/Piero16301 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
