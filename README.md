@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Piero16301
 - 👀 I’m interested in Computer Graphics, Algorithms, Python, Golang and C++ programming
-- 🌱 I’m currently studying Computer Science and some courses on Udemy
-- 💞️ I’m looking to collaborate on Web Services and Mobile Applications
+- 🌱 I’m currently working as Sofware Engineer at IDEGO STD
+- 💞️ I’m looking to collaborate on Mobile Applications, Backend and Cloud Services
 - 📫 How to reach me: mail me to piero.morales@utec.edu.pe
 
 # Summary
