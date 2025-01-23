@@ -4,22 +4,7 @@
 - 💞️ I’m looking to collaborate on Mobile Applications, Backend and Cloud Services
 - 📫 How to reach me: mail me to piero.morales@utec.edu.pe
 
-# Summary
-![summary](https://github.com/Piero16301/Piero16301/blob/main/Summary_Widget.png)
 
-# Work Experience
-![work-experience](https://github.com/Piero16301/Piero16301/blob/main/Work_Experience_Widget.png)
-
-# Education
-![education](https://github.com/Piero16301/Piero16301/blob/main/Education_Widget.png)
-
-# Skills Chart
-![skills-chart](https://github.com/Piero16301/Piero16301/blob/main/Skills_Chart_Widget.png)
-
-# Activity
-![activity](https://github.com/Piero16301/Piero16301/blob/main/Activity_Widget.png)
-
-<!---
 Piero16301/Piero16301 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 
@@ -37,4 +22,3 @@ You can click the Preview link to take a look at your changes.
 
 # Activity
 ![activity](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=activity&username=piero16301&branding=false&labels=true&legend=true)
---->
