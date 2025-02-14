@@ -146,6 +146,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Piero16301/Piero16301/output/snake.svg" alt="Snake animation" />
+<img src="https://github.com/Piero16301/Piero16301/blob/main/output/snake.svg" alt="Snake animation" />
 
 ###
