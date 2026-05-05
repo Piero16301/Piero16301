@@ -2,7 +2,7 @@ name: GitHub Metrics Professional
 on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push: {branches: ["main"]}
 
 jobs:
   github-metrics:
@@ -18,19 +18,29 @@ jobs:
           base: header, community, repositories, metadata
           base_indepth: yes
           config_timezone: America/Lima
+          # Analiza repos propios, colaboraciones y organizaciones (Pragma/UTEC)
+          repositories_affiliations: owner, collaborator, organization_member 
 
-      - name: 💻 Generate Most Used Languages (with details)
+      - name: 💻 Generate Detailed Language Metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: languages.svg
-          base: "" # Importante: se deja vacío según el ejemplo para aislar el plugin
+          base: ""
           plugin_languages: yes
+          plugin_languages_indepth: yes # Escaneo profundo de archivos
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: programming # Enfocarse solo en código
+          plugin_languages_recent_load: 500
+          plugin_languages_recent_days: 0 # Analizar todo el historial
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 4
+          plugin_languages_limit: 8
+          # Asegurar que analice más de los 100 repos predeterminados
+          repositories_limit: 600
+          repositories_affiliations: owner, collaborator, organization_member
 
       - name: 📅 Generate 3D Activity Calendar
         uses: lowlighter/metrics@latest
