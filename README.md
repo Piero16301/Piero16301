@@ -54,9 +54,8 @@ Senior Mobile Developer from Peru 🇵🇪 specialized in building high-performa
 ### 📊 GitHub Stats
 
 <div align="center">
-  <!-- Fila 1: Stats Generales y Stack Tecnológico (Iconos) -->
   <img src="stats.svg" height="185" alt="Piero's Stats" />
-  <img src="calendar.svg" width="100%" alt="Activity Calendar" />
+  <img src="calendar.svg" height="185" alt="Activity Calendar" />
 </div>
 
 ---
