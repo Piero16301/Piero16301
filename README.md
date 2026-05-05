@@ -63,9 +63,9 @@ Senior Mobile Developer from Peru 🇵🇪 specialized in building high-performa
 ### 📫 Connect with me
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/piero-angelo-morales-alcalde)
-- 🌐 [Portfolio / Website](https://pmorales.dev)
+- 🌐 [Portfolio]([https://pmorales.dev](https://piero-morales-alcalde.web.app/))
 - 📧 [piero.morales@utec.edu.pe](mailto:piero.morales@utec.edu.pe)
-- 📦 [Dart/Flutter Packages](https://pub.dev/publishers/pmorales.dev/packages)
+- 📦 [Medium](https://medium.com/@piero.morales)
 
 ---
 
