@@ -19,16 +19,6 @@ jobs:
           base_indepth: yes
           config_timezone: America/Lima
 
-      - name: 🏷️ Generate Topics Icons
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: topics.svg
-          base: "" # Aísla el plugin según la documentación
-          plugin_topics: yes # Activa el plugin de tópicos
-          plugin_topics_limit: 0 # Sin límite para mostrar todos los iconos
-          plugin_topics_mode: icons # Establece el modo de visualización a iconos
-
       - name: 📅 Generate 3D Activity Calendar
         uses: lowlighter/metrics@latest
         with:
