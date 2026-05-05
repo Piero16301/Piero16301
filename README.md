@@ -53,12 +53,13 @@ Senior Mobile Developer from Peru 🇵🇪 specialized in building high-performa
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Piero16301&show_icons=true&theme=tokyonight&cache_seconds=1800" alt="Piero's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piero16301&layout=compact&theme=tokyonight&cache_seconds=1800" alt="Top Languages" />
+<div align="center">
+  <!-- GitHub Profile Details Card (More stable alternative) -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Piero16301&theme=tokyonight" alt="GitHub Profile Details" />
   <br/>
+  <!-- GitHub Streak (This one is working correctly) -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Piero16301&theme=tokyonight" alt="GitHub Streak" />
-</p>
+</div>
 
 ---
 
