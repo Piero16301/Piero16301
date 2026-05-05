@@ -1,8 +1,8 @@
-name: GitHub Metrics
+name: GitHub Metrics Professional
 on:
-  schedule: [{cron: "0 0 * * *"}] # Se actualiza cada medianoche
+  schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  push: {branches: ["main"]}
+  push: {branches: ["master", "main"]}
 
 jobs:
   github-metrics:
@@ -17,10 +17,9 @@ jobs:
           filename: stats.svg
           base: header, community, repositories, metadata
           config_timezone: America/Lima
-          config_theme: tokyonight
           config_order: base.header, base.community, base.repositories
 
-      - name: 💻 Generate Detailed Language Metrics
+      - name: 💻 Generate Top Languages Metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -31,16 +30,14 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
-          config_theme: tokyonight
 
       - name: 🔥 Generate Coding Habits and Activity
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: streak.svg
+          filename: habits.svg
           base: ""
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          config_theme: tokyonight
