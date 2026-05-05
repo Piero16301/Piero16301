@@ -54,10 +54,12 @@ Senior Mobile Developer from Peru 🇵🇪 specialized in building high-performa
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="stats.svg" height="170" alt="Piero's Stats" />
-  <img src="languages.svg" height="170" alt="Top Languages" />
-  <br/>
-  <img src="streak.svg" height="170" alt="GitHub Activity Streak" />
+  <!-- Fila 1: Resumen General y Lenguajes -->
+  <img src="stats.svg" height="180" alt="Piero's Stats" />
+  <img src="languages.svg" height="180" alt="Top Languages" />
+  <br/><br/>
+  <!-- Fila 2: Hábitos y Actividad (Streak Local) -->
+  <img src="streak.svg" width="100%" alt="Coding Habits" />
 </div>
 
 ---
