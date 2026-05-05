@@ -55,7 +55,7 @@ Senior Mobile Developer from Peru 🇵🇪 specialized in building high-performa
 
 <div align="center">
   <img src="stats.svg" width="40%" alt="Piero's Stats" />
-  <img src="calendar.svg" width="59%" alt="Activity Calendar" />
+  <img src="calendar.svg" width="55%" alt="Activity Calendar" />
 </div>
 
 ---
