@@ -2,7 +2,7 @@ name: GitHub Metrics Professional
 on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  push: {branches: ["main"]}
+  push: {branches: ["master", "main"]}
 
 jobs:
   github-metrics:
@@ -10,29 +10,33 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: 📊 Profile Stats & Languages
-        uses: lowlighter/metrics@master
+      - name: 📊 Generate General Profile Stats
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: stats-and-languages.svg
+          filename: stats.svg
           base: header, community, repositories, metadata
           base_indepth: yes
           config_timezone: America/Lima
-          
-          # Lenguajes: Forzamos la aparición de tus stacks principales
-          plugin_languages: yes
-          plugin_languages_ignored: html, css, tex
-          plugin_languages_details: percentage
-          plugin_languages_limit: 8
-          plugin_languages_recent_days: 0
 
-      - name: 🔥 Coding Activity (Habits)
-        uses: lowlighter/metrics@master
+      - name: 💻 Generate Detailed Language Metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: habits.svg
+          filename: languages.svg
           base: ""
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_ignored: html, css, tex
+          plugin_languages_limit: 8
+
+      - name: 📅 Generate 3D Activity Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: calendar.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
